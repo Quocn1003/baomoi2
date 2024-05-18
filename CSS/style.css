@@ -1,0 +1,119 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    .img{
+        height: 60px;
+    }
+    .menu{
+        background-color: #2FA1B3 ;
+        display: flex;
+        justify-content: center;
+    }
+    nav{
+        padding:  10px 0;
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 50px;
+        }
+        a:hover{
+            background-color: #1d5a63;
+            border: solid 1px white;
+        }
+    }
+}
+
+.main{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    .content{
+        display: flex;
+        background-color: white;
+        padding: 20px 30px ;
+        align-self: center;
+        width: 1100px;
+        .main-left{
+            width: 60%;
+            padding: 20px 20px 0 20px;
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            img{
+                width: 100%;
+            }
+        }
+        .main-right{
+            padding-top: 20px;
+            width: 40%;
+            img{
+                width: 40%;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            figure{
+                display: flex;
+                padding-bottom: 30px;
+            }
+            
+        }
+    }
+}
+
+.logo{
+    height: 50px;
+    margin: 5px 10px 5px 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    .img{
+        img{
+            height: 35px;
+        }
+        height: 45px;
+        background-color: #2FA1B3;
+    }
+    .footer{
+        padding: 10px;
+        align-self: center;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        width: 1100px;
+        display: flex;
+        .footer-left{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            a{
+                margin: 10px;
+                font-size: 20px;
+                font-weight: bold   ;
+            }
+        }
+        .footer-right{
+            margin-top: 10px;
+            width: 50%;
+            text-align: right;
+        }
+    }
+}
